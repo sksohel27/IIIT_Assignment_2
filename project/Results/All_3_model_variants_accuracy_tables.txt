@@ -1,0 +1,5 @@
+Sound-only → 0.9946
+Fusion     → 0.9643
+Text-only  → 0.5586
+
+ALL OF THEM ARE TEST ACCURACY 
