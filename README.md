@@ -252,7 +252,6 @@ Contributions welcome! Open an issue or PR for:
 - Dataset expansions.
 - UI demo (Streamlit/Gradio).
 
-**License**: MIT © [Your Name]
 
 ---
 
