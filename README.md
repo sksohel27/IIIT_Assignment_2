@@ -97,13 +97,13 @@ project/
 - **CNN-BiLSTM** (TensorFlow/Keras): 3 conv blocks → BiLSTM (128→64) → FC classifier.
 - **BiLSTM w/ Attention** (PyTorch): 2-layer BiLSTM + multi-pooling (mean/max/last) + MLP.
 - **Why?** Captures temporal prosody and spectral patterns in emotional speech.
-
+  
 [![Sound Model](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DTSwQfZFra2471RYWXRjtdemgXHSMPA5?usp=sharing)
 
 ### 2. Text-Only
 - **TF-IDF** (scikit-learn) → Linear projection (512-dim).
 - **Why?** Simple baseline for lexical cues (limited in TESS due to uniform phrases).
-- 
+  
 [![Text Model](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KVnR4qNR0R91BhSwKB3MH5FyiyWTX0BG?usp=sharing)
 
 ### 3. Multimodal Late Fusion
@@ -111,7 +111,7 @@ project/
 - Text: 512-dim projection.
 - **Fusion**: Concat (1024-dim) → FC (1024→512→7) w/ dropout.
 - **Why?** Combines high-level features; tests complementarity.
-- 
+  
 [![Fusion Model](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1z-RO0-bGepgDyvUsIhD6v5fyHMmVoRi6?usp=sharing)
 
 **Training**:
