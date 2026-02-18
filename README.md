@@ -7,7 +7,7 @@
 
 **A comprehensive multimodal emotion recognition system using speech, text, and late fusion on the Toronto Emotional Speech Set (TESS).**
 
-This project implements three pipelines as per **Assignment 2: Multimodal Emotion Recognition**:
+This project implements three pipelines as per **Assignment 2: Multimodal Emotion Recognition**: 
 - **Speech-only**: CNN-BiLSTM and BiLSTM with attention for acoustic emotion cues.
 - **Text-only**: TF-IDF + linear projection for lexical analysis.
 - **Multimodal (Late Fusion)**: Combines speech and text embeddings for unified classification.
