@@ -132,8 +132,8 @@ project/
 | **Fusion**         | 96.43%       | ~96.4%     | Slight degradation       |
 
 **Visuals**:
-- [t-SNE Embeddings](results/plots/t-sne_speech_text_fusion.png) (Speech: Tight clusters; Text: Overlap; Fusion: Speech-dominated).
-- [Confusion Matrices](results/plots/confusion_matrices.png).
+- [t-SNE Embeddings](results/plots) (Speech: Tight clusters; Text: Overlap; Fusion: Speech-dominated).
+- [Confusion Matrices](results/plots).
 
 ### Class-wise Insights
 - **Easiest**: Neutral, Angry, Sad (distinct prosody: flat/high-energy/low-pitch).
